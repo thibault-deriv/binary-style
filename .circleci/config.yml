@@ -68,7 +68,7 @@ commands:
           name: "Publish to cloudflare pages (production)"
           command: |
             cd dist
-            npx wrangler pages publish . --project-name=binary-style-pages --branch=main
+            npx wrangler pages publish . --project-name=binary-style-pages --branch=maintest
             echo "New website - https://style.binary.com"
 jobs:
   build:
